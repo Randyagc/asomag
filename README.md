@@ -1,2 +1,2 @@
 # asomag
-Para la asociación fememnina del MAG, organización sin fines de lucro al servicio de las socias
+Para la asociación femenina del MAG, organización sin fines de lucro al servicio de las socias
