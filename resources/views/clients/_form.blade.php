@@ -40,7 +40,13 @@
             <label for="cli_tipo_cliente">
                 <u>Tipo Cliente</u>
             </label>
-            <input class="form-control" id="cli_tipo_cliente" type="text" name="cli_tipo_cliente" value="{{ old('cli_tipo_cliente', $cliente->cli_tipo_cliente) }}">
+            {{-- <input class="form-control" id="cli_tipo_cliente" type="text" name="cli_tipo_cliente" value="{{ old('cli_tipo_cliente', $cliente->cli_tipo_cliente) }}"> --}}
+            <select name="cli_tipo_id" class="form-control border-0 bg-yellow shadow-sm">
+                <option> Seleccione el tipo de Cliente </option>
+                @foreach($tiposcliente as $tipocli)
+                    <option style="font-color: #34de;" value="{{$tipocli->id}}">{{ $tipocli->id }}.{{ $tipocli->tpc_descripcion }}</option>
+                @endforeach
+            </select>
         </div>
         <div class="form-group col-md-6">
             <label for="cli_direccion">
