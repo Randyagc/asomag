@@ -47,11 +47,17 @@
                     <menu>
                         <menuitem id="demo3">
                             <a>
-                                Generales</a>
+                                Generales
+                            </a>
                             <menu>
                                 <menuitem>
                                     <a href="{{ route("clients.index") }}">
                                         Clientes
+                                    </a>
+                                </menuitem>
+                                <menuitem>
+                                    <a href="{{ route("clitipos.index") }}">
+                                        Tipos Clientes
                                     </a>
                                 </menuitem>
                                 <menuitem>

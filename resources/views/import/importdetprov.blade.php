@@ -40,8 +40,8 @@
         </select>
     </div>
     <input type="hidden" name="imd_descripcion" value="Ingreso Detalles Proveedor">
-    <input type="hidden" name="imd_estado" value="ACT">
-    <input type="hidden" name="imd_user" value="{{ Auth::user()->id }}">
+    <input type="hidden" name="imd_estado" value="1ACT">
+    <input type="hidden" name="imd_user" value="{{ Auth::id() }}">
     <div class="form-group mt-4 mx-5">
         <input class="form-control" type="file" name="file">
     </div>

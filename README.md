@@ -60,7 +60,8 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-
+Token Autorizador de VSCode a GitHub
+vscode://vscode.github-authentication/did-authenticate?windowid=1&code=1d48632f8518fd5aedc4&state=6998cba3-d2bd-43d4-ad50-ac1b6e05f74d
 Miércoles, agosto 19/2020 10:30 horas
 
 Se crea proyecto con "composer", en la última versión de Laravel y en el directorio "asomag".  Esta aplicación reemplará a la desarrollada en PB 12.5 y la BD en SQL Anywhere 12.0.  Sirve para controlar lso descuentos que se realiza a las miembras de la Asociación Femenina del MAG.

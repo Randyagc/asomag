@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\SaveClientRequest;
 use App\Cliente;
 use App\Id_tipo;
+use App\Cliente_tipo;
 
 class ClientController extends Controller
 {
@@ -32,6 +33,7 @@ class ClientController extends Controller
         return view('clients.create', [
             'cliente' => new Cliente(),
             'tiposid' => Id_tipo::all(['id', 'tid_descripcion']),
+            'tiposcliente' => Cliente_tipo::all(['id', 'tpc_descripcion']),
         ]);
     }
 

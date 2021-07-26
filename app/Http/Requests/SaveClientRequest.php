@@ -46,7 +46,6 @@ class SaveClientRequest extends FormRequest
             "cli_seguimiento" => "required",
             "cli_observaciones_seguimiento" => "required",
             "cli_observaciones" => "required",
-            "cli_agro" => "required",
             "cli_porcentaje_factura" => "required",
             "cli_fecha_creacion" => "required",
             "cli_fecha_ingreso" => "required",

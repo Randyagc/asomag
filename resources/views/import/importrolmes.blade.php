@@ -37,7 +37,7 @@
     <input type="hidden" name="rol_cod_desc" value="Mix">
     <input type="hidden" name="rol_descripcion" value="Ingreso RoL Mensual MAG">
     <input type="hidden" name="rol_estado" value="ACT">
-    <input type="hidden" name="rol_user" value="{{ Auth::user()->id }}">
+    <input type="hidden" name="rol_user" value="{{ Auth::id() }}">
     <div class="form-group mt-4 mx-5">
         <input class="form-control" type="file" name="file">
     </div>

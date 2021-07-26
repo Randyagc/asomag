@@ -16,7 +16,7 @@ class ImportdetprovController extends Controller
         return view("import.importdetprov", [
             "proveedordet" => Import_detalle::latest()->paginate(10),
             "periodos" => Periodo::Estadoreg("ACT")->get(),
-            "clientes" => Cliente::Proveedor(7)->get(), /** Uso de SCOPES, definido en el modelo(Cliente) */
+            "clientes" => Cliente::Proveedor(3)->get(), /** Uso de SCOPES, definido en el modelo(Cliente) */
         ]);
     }
 
